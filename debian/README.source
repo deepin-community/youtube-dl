@@ -1,0 +1,42 @@
+Debian packaging for youtube-dl
+-------------------------------
+
+These are the important steps and may need to be changed according to
+deviations, say, in the release process of upstream releases (e.g., if
+upstream changes the location where the tarballs reside).
+
+You can create a list of extractors (for inclusion in the long description
+of the package) with a call similar to:
+
+    ./youtube-dl --list-extractors | perl -pe 's/^/ /; s/$/,/;' > list-of-extractors.txt
+
+
+ -- Rogério Brito <rbrito@gmail.com>, Sat, 13 Feb 2021 11:21:47 -0300
+
+
+
+I'm taking over in in silent remembrance by quoting Rogério's latest e-mail to me.
+Rogério's dead is a big loss for Debian.
+
+
+Date: Tue, 06 Apr 2021 15:48:47 -0300
+From: Rogério Theodoro de Brito <rbrito@gmail.com>
+To: Andreas Tille <andreas@fam-tille.de>
+Subject: Re: [ftpmaster@ftp-master.debian.org: parallel_20210322+ds-1~exp0_source.changes ACCEPTED into experimental]
+
+Dear Andreas,
+
+Thank you very much for the upload.
+
+My mother died this weekend and, to make matters worse, in the exact moment she left us, I was with my dad in the emergency room, taking a huge dose of oxygen.
+
+Unfortunately, he doesn't know that he lost his dear wife and he will be profoundly mad, angry and sad when he discovers it (if he actually gets out of the intensive care unit).
+
+Due to going to multiple hospitals, I have started having symptoms of some kind of flu (I hope that it's not COVID-19, but I am pessimistic).
+
+So, thank you for taking care of the package. I don't have the state of mind or health right now to work on anything.
+
+Thanks once again,
+
+Rogério Brito.
+
